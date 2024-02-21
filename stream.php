@@ -188,7 +188,7 @@ class CryptedVideoStream // fol
 }
 
 $filePath = "file";
-$stream = new VideoStream($filePath); 
+$stream = new CryptedVideoStream($filePath); 
 $stream->start();
 
 ?>
